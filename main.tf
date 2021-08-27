@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "voxxify-terraform-states"
+    bucket = "terraform-states"
     region = "eu-west-1"
   }
 }
